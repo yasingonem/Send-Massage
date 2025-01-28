@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Message</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <header>Send us a Messsage</header> 
+        <form action="#">
+            <div class="dbl-field">
+                <div class="field">
+                    <input type="text" name ="name" placeholder="Enter your name">
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="field">
+                    <input type="text" name ="email" placeholder="Enter your email">
+                    <i class='bx bxs-envelope'></i>
+                </div>
+            </div>
+            <div class="dbl-field">
+                <div class="field">
+                    <input type="text" name ="phone" placeholder="Enter your phone">
+                    <i class='bx bxs-phone'></i>
+                </div>
+                <div class="field">
+                    <input type="text" name ="website" placeholder="Enter your website">
+                    <i class='bx bx-globe'></i>
+                </div>
+            </div>
+            <div class="message">
+                <textarea placeholder="Write your message" name ="message"></textarea>
+                <i class='bx bxs-message-detail'></i>
+            </div>
+            <div class="button-area">
+                <button type="submit">Send Message</button>
+                <span>Sending your message...</span>
+            </div>
+        </form>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
